@@ -1,0 +1,52 @@
+#sliderPan { width:550px; margin:5px 0; }
+	#previewTable { margin-top:15px; }
+	#previewTable td { padding:5px; }
+	#selectedVideoFrames { width:550px; background:#999; padding:5px 0; overflow:auto;}
+	#selectedVideoFrames ul { list-style-type:none; margin:0; padding:0; }
+	#selectedVideoFrames ul li { cursor:pointer; background:none; float:left; margin:0; position:relative; padding:0; margin-right:5px; border:2px solid #ccc; }
+	#selectedVideoFrames ul li img { width:100px; }
+	#selectedVideoFrames ul li .frameNum { position:absolute; top:5px; left:5px; font-weight:bold; color:#fff; padding:0 2px; background:#000; }
+	#selectedVideoFrames ul li.selected { border-color:#12460d; }
+	.slideWrap { position:relative; }
+	.slideCanvas { width:550px;height:253px;position:absolute;top:0;left:0;}
+	
+	#slideShow { width: 550px; height: 253px; overflow:hidden; }
+	#slideShow ul{ margin:0; padding:0; list-style-type:none; }
+	#slideShow ul li { margin:0; float:left; background:none; padding:0;}
+	.clr { width:100%; clear:both; height:1px; overflow:hidden; }
+
+	.blockWrap { float:left; width:460px; }
+	.colorSelect { margin:10px; }
+	.sketchTools ul, .colorSelect ul { margin:0; padding:0; list-style-type:none; }
+	.sketchTools ul li, .colorSelect ul li { display:inline-block; margin-right:5px; background:none; padding:0;}
+	.colorSelect ul li a{ height:50px; width:50px; display:inline-block; }
+	.colorSelect ul li a.selected{ border:1px solid #ccc; }
+	.sketchTools ul li a{ color:#ABC035; }
+	
+	.post-holder > h1 {display:none; }
+	#content { width:auto; float:none; padding:15px; }
+	#frameSliderInner { width:auto; overflow:auto; padding-bottom:5px; }
+	#frameSlider ul { height:130px; list-style-type:none; margin:0; padding:0; width:420px; }
+	#frameSlider ul li { list-style-type:none; padding:0; margin-right:10px; float:left; }
+	#frameSliderInner img { cursor:pointer; }
+	.menuGreen a { color:#5DE35D !important; text-decoration: none;font-size: 20px;font-weight: bold; width: 50px;height: 50px; }
+	.menuRed a { color:#abc035 !important; text-decoration: none;font-size: 20px;font-weight: bold; width: 50px;height: 50px; }
+	.lesson a { text-decoration:none; text-transform: uppercase;font-size: 12px;}
+	.lesson a h2 { color:#ABC035 !important; margin-bottom:0; }
+	.lesson { margin-bottom:10px; padding-bottom:10px; border-bottom:1px dotted #ccc; }
+	.lesson-date {float:right; }
+	#originalVideo { position:absolute; right:0;}
+	#lessonSlide, #sliderPan { width:450px; }
+
+	.sketchTools ul, .colorSelect ul { margin:0; padding:0; list-style-type:none; }
+	.sketchTools ul li, .colorSelect ul li { display:inline-block; margin-right:5px; background:none; padding:0;}
+	.colorSelect ul li a{ height:20px; width:20px; display:inline-block; }
+	.colorSelect ul li a.selected{ border:1px solid #ccc; }
+	.sketchTools ul li a{ color:#ABC035; }
+	
+	#lessonSlide ul li, #lessonSlide ul { margin:0; padding:0; background:none; }
+	#lessonSlide li { display:none;  }
+	#lessonSlide { position:relative;}
+	#lessonSlide li.selected { display:block; }	
+	#lessonSlide { height:253px; }
+	

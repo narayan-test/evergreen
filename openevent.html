@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ever Green</title>
+
+
+</head>
+<body>
+        <div data-role="page" style="padding:0px; width: 100%;background: url(images/bg1.png);background-repeat:repeat-x; background-size: 100% 100%;" >
+         <!-- /header -->
+				<a href="javascript:openHome();"><img src="images/home.png" style="margin: 7px;float: left" border="0" width="auto"></a>
+            <span style="margin: 30px 0px 30px 0px;float: left; color:black; text-shadow: none;">Home</span>
+		
+				<div data-role="content" style="padding:0px;width: 100%;text-shadow: none;margin-bottom:85px;">
+				<hr style="margin-top: -1px;">
+				<img src="images/openevents.png"  border="0">
+							
+		          <div id="openevents-data" style="width: 100%"><div id="home-content" data-role="content" style="padding-left: 0%;text-shadow: none;width: 100%;">
+							</div>
+							<!-- <label style="color:black;margin-left: 2%;font-family:fantasy;font-size:17px;">Event Name</label><br><br>
+							           <label style="color:black;margin-left: 2%;font-family:fantasy;font-size:17px;">Event Date and Time</label><br><br>
+							           <label style="color:black;margin-left: 2%;font-family:fantasy;font-size:17px;">Event information</label><br><br>  -->
+								<script id="openevents-template" type="text/x-handlebars-template">
+                   				       
+                        				{{#each this}}
+                                                  <hr style="margin-top: 2px;"> 
+                                                  <div style="padding-left:5px;padding-right:5px;font-size:12px;color:#000000;"> 
+                                                  <span><b>{{this.title}}</b> <br/>
+                                                   {{formatDate this.datetime "long"}} 
+                                    <br/>
+                                  
+                                                  {{this.details}}</b></span> 
+                                        </div><br/>
+                      					{{/each}}
+                                  		
+               					</script>
+				   </div>
+			</div> 
+        
+             <div  style="position:fixed;right:0px; height: auto; bottom:0px; padding-top:0px; width:100%;margin-bottom:-5px;">
+            
+                <div align="right" style="padding:3px; vertical-align:bottom;text-shadow: none; color: #000;">Powered by :<span> <a href="javascript:window.open('http://www.fuelplatform.com/', '_blank');" ><img src="images/foel.png" border="0" ></a></span></div>
+            
+                <div><span style="float: left; width: 50%;"><a href="javascript:phoneNumberCall();"><img style="height:auto; width: 100%" src="images/callBtn.png"  border="0"></a></span></div>
+                <div><span style="float: right;width: 50%;">
+                <a href="javascript:Sharedpage();"><img style="height:auto; width: 100%" src="images/sharebtn.png"  border="0"></a></span></div>
+            
+            </div>
+					
+		</div>
+	<!-- /page -->
+       
+	</body>
+</html>

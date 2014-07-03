@@ -1,0 +1,17 @@
+#home-header img {width:100%;}
+#home-content {
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(24%,#1b4305)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #000000 0%,#1b4305 24%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #000000 0%,#1b4305 24%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #000000 0%,#1b4305 24%); /* IE10+ */
+background: linear-gradient(to bottom,  #000000 0%,#1b4305 24%); /* W3C */
+	
+	
+}
+
+#home-header {
+/*background-image: url('../images/header-image.png');*/
+}
+
+#footer { display:none;}
